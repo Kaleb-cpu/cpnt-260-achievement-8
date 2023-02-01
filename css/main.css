@@ -1,0 +1,60 @@
+/* Body text */
+body {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 1.7;
+  
+  background-color: #f9f9ec;
+}
+
+/* Call-to-action container */
+.cta {
+  margin: 1em;
+  padding: 1rem;
+  max-width: 40ch;
+  border-radius: 5px;
+
+  /* color and font */
+  background-color: hsl(290, 15%, 28%);
+  color: white;
+  font-size: clamp(1.3rem, 2.5vw, 1.8rem); 
+}
+
+/* Call to Action "button" */
+.cta a {
+  display: inline-block;
+  
+  font-family: 'Carter One', "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  text-decoration: none;
+  text-align: center;
+  font-size: 28px;
+  
+  color: hsl(144, 14%, 21%);
+  background-color: 	hsl(269, 70%, 84%);
+  border-radius: 3.5px;
+}
+
+/* Hover state */
+.cta a:hover {
+  background-color: hsl(240, 6%, 86%);
+  color: hsl(350, 38%, 32%);
+  transition: transform 0.2s;
+  transform: scale(1.1);
+  padding: 10px;
+  
+}
+
+/* Click state */
+.cta a:active {
+  background-color: #d9d9a6;
+  color: #333;
+}
+@media only screen and (min-width: 60em){
+  
+  body {
+    padding-right: 50px;
+    display: flex;
+    justify-content: center;
+    
+  }
+}
